@@ -3,6 +3,7 @@
 from gremlin_python.driver.client import Client
 from utils.auth import Auth
 
+
 class GraphCompute_Client(Client):
     def __init__(self, url, traversal_source, credential, protocol_factory=None,
                  transport_factory=None, pool_size=None, max_workers=None):

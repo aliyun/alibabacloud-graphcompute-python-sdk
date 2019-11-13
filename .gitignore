@@ -4,5 +4,6 @@
 .pydevproject
 .settings
 .coverage
+.DS_Store
 build
 dist

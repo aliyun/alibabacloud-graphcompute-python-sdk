@@ -6,6 +6,8 @@ import base64
 import urllib
 import time
 
+__all__ =['Credentials', 'Auth']
+
 class Credentials(object):
     def __init__(self, access_key_id, access_key_secret):
         self.access_key_id = access_key_id.strip()
